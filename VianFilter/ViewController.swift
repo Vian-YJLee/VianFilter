@@ -112,6 +112,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
                 UISaveVideoAtPathToSavedPhotosAlbum(videoURL.relativePath, self, nil, nil)
             }
         }
+        self.dismiss(animated: true, completion: nil)
     }
     
     

@@ -6,5 +6,6 @@ target 'VianFilter' do
     pod 'RxSwift', '~> 5.0'
     pod 'RxCocoa', '~> 5.0'
     pod 'AFNetworking', '~> 3.2'
+    pod 'FMDB'
 
 end

@@ -15,6 +15,7 @@
 		4C39A6AF223FB4CE004B6A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C39A6AD223FB4CE004B6A67 /* LaunchScreen.storyboard */; };
 		4C39A6BA223FB4CE004B6A67 /* VianFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39A6B9223FB4CE004B6A67 /* VianFilterTests.swift */; };
 		4C39A6C5223FB4CE004B6A67 /* VianFilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C39A6C4223FB4CE004B6A67 /* VianFilterUITests.swift */; };
+		4C849D3E229D591000E5ADBF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4C849D3D229D591000E5ADBF /* .gitignore */; };
 		CDBD41CDF0642012E5696A93 /* Pods_VianFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5336FA6E0C0390F1865A2C /* Pods_VianFilter.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		4C39A6C0223FB4CE004B6A67 /* VianFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VianFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C39A6C4223FB4CE004B6A67 /* VianFilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VianFilterUITests.swift; sourceTree = "<group>"; };
 		4C39A6C6223FB4CE004B6A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C849D3D229D591000E5ADBF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		52B909D638563FF8DBFF129E /* Pods-VianFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VianFilter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VianFilter/Pods-VianFilter.debug.xcconfig"; sourceTree = "<group>"; };
 		8E5336FA6E0C0390F1865A2C /* Pods_VianFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VianFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99387F08B24708D4BC3B31C1 /* Pods-VianFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VianFilter.release.xcconfig"; path = "Pods/Target Support Files/Pods-VianFilter/Pods-VianFilter.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				4C39A6A1223FB4CD004B6A67 /* AppDelegate.swift */,
 				4C39A6A3223FB4CD004B6A67 /* ViewController.swift */,
 				4C39A6A5223FB4CD004B6A67 /* Main.storyboard */,
+				4C849D3D229D591000E5ADBF /* .gitignore */,
 				4C39A6AB223FB4CE004B6A67 /* Assets.xcassets */,
 				4C39A6AD223FB4CE004B6A67 /* LaunchScreen.storyboard */,
 				4C39A6B0223FB4CE004B6A67 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C849D3E229D591000E5ADBF /* .gitignore in Resources */,
 				4C39A6AF223FB4CE004B6A67 /* LaunchScreen.storyboard in Resources */,
 				4C39A6AC223FB4CE004B6A67 /* Assets.xcassets in Resources */,
 				4C39A6A7223FB4CD004B6A67 /* Main.storyboard in Resources */,
@@ -291,6 +295,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VianFilter/Pods-VianFilter-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -300,6 +305,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
